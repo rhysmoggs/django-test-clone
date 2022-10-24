@@ -13,32 +13,40 @@
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=name&direction=asc" class="dropdown-item ">By Name</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Bikes
+                Furniture
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=mountain_bikes" class="dropdown-item">Mountain Bikes</a>
-                <a href="{% url 'products' %}?category=road_bikes" class="dropdown-item">Road Bikes</a>
-                <a href="{% url 'products' %}?category=electric_bikes" class="dropdown-item">Electric Bikes</a>
-                <a href="{% url 'products' %}?category=bmx" class="dropdown-item">BMX</a>
-                <a href="{% url 'products' %}?category=mountain_bikes,road_bikes,electric_bikes,bmx" class="dropdown-item">All Bikes</a>
+                <a href="{% url 'products' %}?category=chair" class="dropdown-item">Chairs</a>
+                <a href="{% url 'products' %}?category=sofa" class="dropdown-item">Sofas</a>
+                <a href="{% url 'products' %}?category=table" class="dropdown-item">Tables</a>
+                <a href="{% url 'products' %}?category=chair,sofa,table" class="dropdown-item">All Furniture</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Accessories
+                Rooms
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=helmets" class="dropdown-item">Helmets</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?room=living_room" class="dropdown-item">Living Room</a>
+                <a href="{% url 'products' %}?room=bedroom" class="dropdown-item">Bedroom</a>
+                <a href="{% url 'products' %}?room=dining_room" class="dropdown-item">Dining Room</a>
+                <a href="{% url 'products' %}?room=kitchen" class="dropdown-item">Kitchen</a>
+                <a href="{% url 'products' %}?room=living_room,dining_room,kitchen" class="dropdown-item">All Rooms</a>
             </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?room=living_room" id="homeware-link" aria-expanded="false">
+                Living Room
+            </a>
         </li>
 
         <li class="nav-item dropdown">
