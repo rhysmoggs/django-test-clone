@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    /* background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed; */
+    background: no-repeat center center fixed;
+    background-image: linear-gradient(rgba(241, 236, 236, 0.5), rgba(0, 0, 0, 0.5)), url("/media/background-lg.jpg");
     /* background-size: 100% 65%; */
     height: calc(100vh - 164px);
     color: #555;
@@ -24,9 +26,17 @@ body {
     text-transform: uppercase;
 }
 
-.main-logo-link {
-    width: fit-content;
+.navbar {
+    padding: 0;
 }
+
+.nav-link {
+    padding: 0;
+}
+
+/* .main-logo-link {
+    width: fit-content;
+} */
 
 .shop-now-button {
     background: black;
