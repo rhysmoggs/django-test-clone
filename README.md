@@ -59,6 +59,28 @@ The website is a full stack project that aims to showcase the creators backend a
 
 ## User Stories
 
+As a New Visitor
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 001           | access and view the website on the device I'm using | view the website without having to hange my device. |
+| 002           | be able to navigate the website with ease | discover what the website is about. |
+| 003           | be able understand the website immediately | decide if it's something I'm interested in. |
+| 004           | be able view guidence or some form of help if needs be | quickly satisfy my queries. |
+| 005           | be able contact the website developers if I wish to | better understand any further queries I have. |
+| 006           | have a reason to return | explore the website further. |
+
+As a Returning Visitor
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 101           | access and view the website on the device I'm using | view the website without having to hange my device. |
+| 102           | be able to navigate the website with ease | discover what the website is about. |
+| 103           | be able understand the website immediately | decide if it's something I'm interested in. |
+| 104           | be able view guidence or some form of help if needs be | quickly satisfy my queries. |
+| 105           | be able contact the website developers if I wish to | better understand any further queries I have. |
+| 106           | have a reason to return | explore the website further. |
+
+
+
 Following are the goals that the website should provide for each user.
 
 #### As a New User :
