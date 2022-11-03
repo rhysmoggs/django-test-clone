@@ -80,6 +80,58 @@ As a Returning Visitor
 | 106           | have a reason to return | explore the website further. |
 
 
+read product reviews
+add review
+edit review
+delete review
+
+these are taken from the CI tutorial (adjust them to your preference):
+As a Shopper - Viewing and Navigation
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 001           | View a list of products | Select some to purchase. |
+| 002           | View a specific category of products | Quickly find products I'm interested in without having to search through all products. |
+| 003           | View individual product details | Indetify the price, description, product rating and product image. |
+| 004           | Quickly identify deals, clearance items and special offers | Take advantage of special savings on products I'd like to purchase. |
+| 005           | Easily view the total of my purchase at any time | Avoid spending too much. |
+
+As a Site User - Registration and User Accounts
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 101           | Easily register for an account | Have a personal account and be able to view my profile. |
+| 102           | Easily login or logout | Access my personal account information. |
+| 103           | Easily recover my password in case I forget it | Recover access to my account. |
+| 104           | Recive an email confimation after registrating | Verify that my account registration was successful. |
+| 105           | Have a personalized user profile | View my personal order history and order confirmations, and save my payments information. |
+
+As a Shopper - Sorting and Searching
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 201           | Sort the list of available products | Easily identify the best rated, best priced and categorically sorted products. |
+| 202           | Sort a specific category of product | Find the bet-priced or best-rated product in a specific category, or sort the products in that category by name. |
+| 203           | Sort multiple categories of products simultaneously | Find the best-priced or best-rated products across broad categories, such as "clothing" or "homeware". |
+| 204           | Search for a product by name or description | Find a specifiuc product I'd like to purchase. |
+| 205           | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available. |
+
+As a Shopper - Purchasing and Checkout
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 301           | Easily select the size and quantity of a product when purchasing it | Ensure I don't accidentally select the wrong product or quantity or size. |
+| 302           | View items in my bag to be purchaed | Identify the total cost of my purchase and all items I will receive. |
+| 303           | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout. |
+| 304           | Easily enter my payment information | Check out quickly with no hassles. |
+| 305           | Feel my personal and payment infomation is safe and secure | Confidently provide the needed information to make a purchase. |
+| 306           | View an order confirmation after checkout | Verify that I haven't made any mistakes. |
+| 307           | Receive an email confirmation after checking out | Keep the confirmation of what've purchased for my records. |
+
+As a Store Owner - Admin and Store Management
+| User Story ID | I want to: | So that I can: |
+| ------------- | ----------| ------------- |
+| 101           | Add a product | Add new items to my store. |
+| 102           | Edit/Udate a product | Change product prices, descriptions, images and other product criteria. |
+| 103           | Delete a product | Remove items that are no longer for sale. |
+104? add, edit/update, remove categories?
+
 
 Following are the goals that the website should provide for each user.
 
