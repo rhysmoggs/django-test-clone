@@ -420,27 +420,29 @@ Extremely important aspect.
 -   Prompts to help guide users.
 
 ## Features
-There are universal features that are present throughout The Cocktail Cabinet website. These feature are:
+There are universal features that are present throughout the Morgan & Co website. These feature are:
 - Responsive on all device sizes - from 320px upwards to larger desktops reaching 1200px and more.
 - Fully-responsive nav bar (including mobile nav bar)
-- Mobile-friendly, adusting automatically at specific breakpoints thanks to Materializecss's easy-to-use framework and custom overriding style classes.
-- The Cocktail Cabinet logo/name is seen at all times whether tucked to the left, central on reduced screen-sizes or at the top of the mobile menu on smaller and mobile devices. This is vital for brand consistency and serves as a simple way of reminding the user of the website's name. The logo is clickable and always takes the user to The Cocktail Cabinet home page (home.html).
-- Clear and obvious navbar links to other pages within the website.
+- Mobile-friendly, adusting automatically at specific breakpoints thanks to Bootstraps's easy-to-use framework and custom overriding style classes.
+- The Morgan & Co logo/name is seen at all times whether tucked to the left, central on reduced screen-sizes or at the top of the mobile menu on smaller and mobile devices. This is vital for brand consistency and serves as a simple way of reminding the user of the company's name. The logo is clickable and always takes the user to the Morgan & Co home page (index.html).
+- The delivery banner promoting free delivery on orders over £100.
+- Clear and obvious navbar links to other pages within the website, including hover effects to enhand user experience.
 - Fully responsible footer which matches the design and colour palette of the top navbar.
-- Social links in footer, linking to the creators social links and provides ways to contact them.
+- Important links in footer, including quick product list and customer information for delivery, refunds etc.
+- Social links in footer, linking to the company social links and provides ways to contact them. Address with full contact info too.
 - Name of website along with copyright info in footer.
 - All clickable images, buttons, links etc have a hovering cursor to signify that that element can be interacted with. The majority of these elements being visually promted either throgh a short zoom in/out animation, colour change or highlighting.
-- A Flash text appears at the top of the webpage whenever a user or admin completes a task - by either adding, editing or deleting information. They are informed of this.
+- Messages appearing at the top of the webpage whenever a user or admin completes a task - by either adding, editing or deleting information. They are informed of this.
 
 Here's a breakdown of all the design features on each of the main webpages within The Cocktail Cabinet website:
 
-### - The Cocktail Cabinet home page (home.html)
+### - Morgan & Co home page (index.html)
 <img src="cocktails/documentation/screenshots/home-page.png">
 
 <img src="cocktails/documentation/screenshots/home-page2.png">
 
-The home page for The Cocktail Cabinet website. All visitors will be welcomed by this webpage. The features include:
-- The user is met with a full-screen hero-image (bg.jpg) with The Cocktail Cabinet centered above. A brief text gives the website's slogan.
+The home page for the Morgan & Co website. All visitors will be welcomed by this webpage. The features include:
+- The user is met with a full-screen background-image (background-blueg.jpg), a promotion/brief message and then a button that leads to the products page.
 - A button to entice the user to 'Log In'. This button changes to 'My Cabinet' if the user is already logged in.
 - Underneath the hero image, a few simple suggestions for users to follow and explore. Some guidence on what to do if new to the site, with the rounded images clickable and related to the text below. Quick links.
 - Carousel. A carousel of all cocktail categories avilable on the website. Click leads to (filter_category.html) with all the related cocktails listed.
